@@ -95,7 +95,7 @@ h1 { margin: 10px 0 18px; font-size: clamp(2.2rem, 7vw, 4.6rem); line-height: 1.
 }
 .button:hover { color: var(--white); background: #086d90; }
 
-.card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.card-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
 .card, .content-card {
   border: 1px solid var(--line);
   border-radius: 24px;
@@ -118,6 +118,11 @@ h1 { margin: 10px 0 18px; font-size: clamp(2.2rem, 7vw, 4.6rem); line-height: 1.
 .content-card li + li { margin-top: 0.45em; }
 .notice { padding: 18px 20px; border-radius: 16px; background: var(--aqua); }
 .contact { margin-top: 34px; padding: 24px; border-radius: 20px; background: #e7f4fa; }
+.report-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 24px; }
+.report-card { padding: 26px; border: 1px solid var(--line); border-radius: 20px; background: var(--white); }
+.report-card h2 { margin: 0 0 8px; }
+.report-card p { color: var(--ink-soft); }
+.checklist { padding-left: 1.25em; }
 
 .site-footer { padding: 28px 0 44px; color: var(--ink-soft); font-size: 0.85rem; }
 
@@ -127,7 +132,7 @@ h1 { margin: 10px 0 18px; font-size: clamp(2.2rem, 7vw, 4.6rem); line-height: 1.
   main { padding-top: 38px; }
   .hero { grid-template-columns: 1fr; gap: 26px; }
   .hero img { width: min(64vw, 240px); order: -1; }
-  .card-grid { grid-template-columns: 1fr; }
+  .card-grid, .report-grid { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
