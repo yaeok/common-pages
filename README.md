@@ -2,6 +2,15 @@
 
 公開中のアプリ向けサポート・ポリシーページを一括管理する静的サイトです。
 
+## えほんばこ
+
+- 公開入口: `ehonbako/index.html`
+- プライバシーポリシー: `ehonbako/privacy-policy.html`
+- 利用規約: `ehonbako/terms.html`
+- サポート: `ehonbako/support.html`
+- 改善要望・不具合報告: `ehonbako/feedback.html`
+- アカウント・データ削除: `ehonbako/account-deletion.html`
+
 ## おさかな図鑑
 
 - 公開入口: `osakana-zukan/index.html`
